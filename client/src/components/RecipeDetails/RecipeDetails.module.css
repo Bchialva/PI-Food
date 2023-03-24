@@ -1,0 +1,46 @@
+.create{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.content {
+    padding: 2rem;
+    border-radius: 30px;
+    
+    box-shadow: 15px 15px 30px #e2d3e1bb, -15px -15px 30px #e0cbdfbb;
+    width: fit-content;
+    
+}
+
+.titulo{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    color: #a7a1a6;
+}
+ .fondo{
+   height: 1100px;
+   background-image: url('https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.2.1109572956.1673889122&semt=sph');
+    background-size:cover ;
+  }
+
+  .text{
+    justify-content:flex-start;
+  }
+
+.boton{
+    background-color: rgba(85, 84, 85, 0.698);
+    color: #faf8f8f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -1400px;
+    border: #1d1d1d10;
+  }
+
+  .boton:hover {
+  
+    background: #d8d6d6;
+  
+}

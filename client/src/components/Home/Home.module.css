@@ -1,0 +1,67 @@
+.bg {
+    background-image: url('https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg&ga=GA1.1.1109572956.1673889122&semt=sph');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    
+  }
+
+.card{
+    display:grid;
+    grid-template-columns: repeat(3, 8fr);
+    align-content: center;
+    align-items:center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  
+  .titulo{
+    color: #fdfbfc
+  }
+  
+  .filtros{
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7eef2; 
+  }
+  
+  .boton2{
+  background-color: rgba(247, 245, 247, 0.865);
+  border-color: rgba(233, 224, 237, 0.254);
+  border-radius: 2%;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: rgba(8, 8, 8, 0.984);
+  font-size: large;
+  font-family:sans-serif;
+  font-style:unset
+  }
+  
+  .boton2:hover {
+  background: #f3dbf1;
+  }
+   
+  .link {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+   
